@@ -11,8 +11,8 @@ import Congrats from "./components/Congrats";
 
 
 function App() {
-  // const boardURL = `${process.env.REACT_APP_BACKEND_URL}/board`;
-  const boardURL = "http://localhost:5000/board"
+  const boardURL = `${process.env.REACT_APP_BACKEND_URL}`;
+  // const boardURL = "http://localhost:5000/board"
   console.log("boardURL is:", boardURL);
 
   // This is a piece of state. It's a list of all the board objects in our api database
